@@ -1,0 +1,32 @@
+
+.parent {
+    background-color: #000;
+    background-repeat: repeat-x;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+  }
+
+  
+  .content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Peepo';
+    font-weight: 100;
+    font-style: normal;
+    color: #fff
+  }
+
+  @font-face {
+    font-family: 'Peepo';
+    src: url('/fonts/peepo.woff2') format('woff2'),
+        url('/fonts/peepo.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
