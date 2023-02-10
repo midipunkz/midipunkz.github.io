@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <title>MidiPunkz</title>
-        <link rel="preload" href="fonts/peepo.woff2" as="font" type="font/woff2" crossorigin/>
+        <link rel="preload" href="fonts/peepo.woff2" as="font" type="font/woff2"/>
 
         <meta name="description" content="Wanna know what a PUNK sounds like? Punkz painted with piano as brush." />
         </Head>
