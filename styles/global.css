@@ -1,0 +1,41 @@
+
+
+@font-face {
+    font-family: 'Peepo';
+    src: url('/fonts/peepo.woff2') format('woff2'),
+        url('/fonts/peepo.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Peepo', 'Helvetica Neue', 'sans-serif';
+  line-height: 1.6;
+  font-size: 18px;
+  background-color: #000;
+
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
