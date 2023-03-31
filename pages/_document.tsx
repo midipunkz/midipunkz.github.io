@@ -3,7 +3,7 @@ import { Html, Head, Main, NextScript } from 'next/document'
 export default function Document() {
   return (
     <Html lang="en">
-      <Head title="MidiPunkz - The world only NFTs painted with piano as brush">
+      <Head title="MiDiPunkz - The world only NFTs painted with piano as brush">
         <link rel="preload" href="fonts/peepo.woff2" as="font" type="font/woff2" />
         <meta name="description" content="Wanna know what a PUNK sounds like? Punkz painted with piano as brush." />
         <link rel="apple-touch-icon" sizes="57x57" href="/icons/apple-icon-57x57.png" />

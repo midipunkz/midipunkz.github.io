@@ -1,10 +1,12 @@
+import { ThirdwebProvider } from '@thirdweb-dev/react';
 import { AppProps } from 'next/app'
 import { FC } from 'react'
-import '../styles/global.css'
 
 // This default export is required in a new `pages/_app.js` file.
 const App: FC<AppProps> = ({ Component, pageProps: { session, ...pageProps } }: any) => {
-    return <Component {...pageProps} />
+    return <ThirdwebProvider activeChain="polygon">
+        <Component {...pageProps} />
+    </ThirdwebProvider>
 }
 
 export default App;

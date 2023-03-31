@@ -7,7 +7,7 @@ export default function Home() {
       <div className={style.content}>
  
         <h2>DJ is spinning some tunes ...</h2>
-        <img src="logo/dj.webp" alt='MidiPunkz DJ' style={{maxWidth:'60vw', minWidth: '20vw'}}/>
+        <img src="logo/dj.webp" alt='MiDiPunkz DJ' style={{maxWidth:'60vw', minWidth: '20vw'}}/>
 
         {/* See you soon! */}
         {/* Hello World. <Link href="/about">About</Link> */}

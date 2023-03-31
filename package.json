@@ -6,6 +6,8 @@
     "deploy": "next build && touch out/.nojekyll && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
   },
   "dependencies": {
+    "@thirdweb-dev/react": "^3.11.3",
+    "@thirdweb-dev/sdk": "^3.10.7",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
