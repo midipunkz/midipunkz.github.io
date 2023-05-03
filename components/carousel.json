@@ -1,0 +1,43 @@
+{
+    "resources": [
+      {
+        "title": "MiDiPunkz DJ",
+        "link": "https://opensea.io/collection/midipunkzdj",
+        "imageUrl": "https://openseauserdata.com/files/c7754cd3cc8531bcdf3a19c35c2ff725.svg"
+      },
+      {
+        "title": "MiDiPunkz Ragnar",
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/7",
+        "imageUrl": "/nfts/ragnar.png"
+      },
+      {
+        "title": "MiDiPunkz OG",
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/1",
+        "imageUrl": "/nfts/og.png"
+      },
+      {
+        "title": "MiDiPunkz DOOBIE",
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/5",
+        "imageUrl": "/nfts/doobie.png"
+      },
+      {
+        "title": "MiDiPunkz 3D",
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/3",
+        "imageUrl": "/nfts/3D.png"
+      },
+      {
+        "title": "MiDiPunkz CAP",
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/2",
+        "imageUrl": "/nfts/CAP.png"
+      },
+      {
+        "title": "MiDiPunkz ALPHA",
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/6",
+        "imageUrl": "/nfts/alpha.png"
+      },
+      { "title": "MiDiPunkz Skull", 
+        "link": "https://opensea.io/assets/ethereum/0x3a29f9f90ea83893b70ed7725afab758d9779acb/0",
+        "imageUrl": "/nfts/skull.png"}
+    ]
+
+  }
