@@ -9,6 +9,7 @@ import Carousel from '../components/Carousel'
 import MiDiPunkz from '../components/MiDiPunkz'
 import Metaverses from '../components/Metaverses'
 import FAQ from '../components/FAQ'
+import Story from '../components/Story'
 export default function Home() {
 
   return (
@@ -25,6 +26,9 @@ export default function Home() {
 
         <a id="nfts" />
         <Carousel />
+
+        <a id="story"/>
+        <Story/>
 
         <a id="family" />
         <Family />

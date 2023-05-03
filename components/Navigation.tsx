@@ -6,6 +6,7 @@ import Link from 'next/link'
 
 const navigation = [
   { name: 'NFTs', href: '/#nfts', current: false },
+  { name: 'Story', href: '/#story', current: false },
   { name: 'Metaverses', href: '/#metaverse', current: false },
 //   { name: 'Music', href: '#', current: false },
   { name: 'Family', href: '/#family', current: false },
