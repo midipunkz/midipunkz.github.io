@@ -16,14 +16,17 @@ export default function Metaverses() {
             />
             </a>
           
-            <a href="https://oncyber.io/midipunkz">
+          <div style={{backgroundColor:"white"}}>
+          <a href="https://oncyber.io/midipunkz">
                 <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://docs.oncyber.io/img/logo_white.png"
+              src="/metaverses/oncyber.png"
               alt="OnCyber"
               width={158}
               height={48}
             /></a>
+          </div>
+        
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
               src="/metaverses/decentraland-mana-logo.svg"

@@ -28,7 +28,7 @@ const faqs = [
     {
         id: 5,
         question: "How do I purchase a MiDiPunkz NFT?",
-        answer: "You can purchase a MiDiPunkz NFT on OpenSea or mint a MidiPunkz DJ on the mint site. To buy an NFT, you will need to have a digital wallet that supports the Ethereum cryptocurrency used by the marketplace"
+        answer: "You can purchase a MiDiPunkz NFT on OpenSea or mint a MidiPunkz on the mint site (if avialable). To buy an NFT, you will need to have a digital wallet that supports the Ethereum cryptocurrency used by the marketplace"
     },
     {
         id: 6,
