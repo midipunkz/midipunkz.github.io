@@ -31,7 +31,7 @@ const Footer = () => {
                             <a href="https://www.instagram.com/midipunkz/" className="hover:underline ">Twitter</a>
                         </li>
                         <li>
-                            <a href="https://discord.gg/9V9kRQh76Q" className="hover:underline">Discord</a>
+                            <a href="https://discord.gg/SSMrh3Hk7y" className="hover:underline">Discord</a>
                         </li>
                     </ul>
                 </div>
