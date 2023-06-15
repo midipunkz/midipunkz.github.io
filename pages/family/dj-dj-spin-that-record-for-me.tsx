@@ -13,7 +13,7 @@ export default function Home() {
   const id = 0
   const { contract } = useContract(contractAddress);
   const { data: nft, isLoading } = useNFT(contract, id);
-  const { data: contractMetadata } = useContractMetadata(contract);
+  // const { data: contractMetadata } = useContractMetadata(contract);
   const { data: eventsData, isLoading: eventsLoading } = useContractEvents(
     contract,
     "Transfer",
@@ -207,7 +207,7 @@ export default function Home() {
               )}
             </div>
 
-            <p className="text-lg font-semibold uppercase text-[#646D7A]">
+            <p className="text-lg font-semibold uppercase text-[#646D7A]" >
 
               Now Available as a Sound on <Link href="https://www.tiktok.com/music/DJ-DJ-Spin-That-Record-For-Me-7237240495876868098?_d=secCgYIASAHKAESPgo8zsFTN3jJOLSm0ag6TmPEoFBC%2BwgP0ZXfuziBqHu36myRLL5DzSnaB4qtCKDpKS8%2Bpb84oeann0wS7kCrGgA%3D&_r=1&checksum=7e4a44963689ec80fac51ca72b594ea26ada62f710ae71375a407021a13912bd&sec_user_id=MS4wLjABAAAADKlFpY-GgepMOGp2De_5-RTk_3q6aQVKBNMhkzW0iVEI_g30zeg4O_6GFTDHx8QC&share_app_id=1233&share_link_id=781240C8-FE77-47C6-BC06-18C51A4689A1&share_music_id=7237240495876868098&sharer_language=en&source=h5_m&timestamp=1685301497&tt_from=copy&u_code=e4ihfl8blkbgd1&ug_btm=b2878%2Cb5171&user_id=7162051082000221190&utm_campaign=client_share&utm_medium=ios&utm_source=copy">Tiktok</Link> and <Link href="https://www.instagram.com/reels/audio/1670526693377987/">Instagram</Link></p>
             <TikSong1 />

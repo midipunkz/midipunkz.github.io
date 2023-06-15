@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Story', href: '/#story', current: false },
   { name: 'Metaverses', href: '/#metaverse', current: false },
   { name: 'Calendar', href:"/calendar", current: false},
-  { name: 'Collab', href:"/collab", current: false},
+  // { name: 'Collab', href:"/collab", current: false},
 //   { name: 'Music', href: '#', current: false },
   { name: 'Family', href: '/#family', current: false },
   // { name: 'Events', href: '#', current: false },
