@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const people = [
     {
       name: 'Leslie Alexander',
@@ -17,10 +19,14 @@ const people = [
             <p className="mt-6 text-lg leading-8 text-gray-200">
               The MiDiPunk Family is an incredible commmunity of artists, musicians, and creative people!
             </p>
+
+            <p className="mt-6 text-lg leading-8 text-gray-200">
+              Check out the hotest collaboration <Link href="/family/dj-dj-spin-that-record-for-me">song</Link> !
+            </p>
           </div>
           <ul role="list" className="grid gap-x-8 gap-y-12 sm:grid-cols-2 sm:gap-y-16 xl:col-span-2">
-            {people.map((person) => (
-              <li key={person.name}>
+            {/* {people.map((person) => (
+              <li key={person.name}> */}
                 <div className="flex items-center gap-x-6">
 
                   <img src="family/tree.jpeg"/>
@@ -30,8 +36,8 @@ const people = [
                     <p className="text-sm font-semibold leading-6 text-indigo-600">{person.role}</p>
                   </div> */}
                 </div>
-              </li>
-            ))}
+              {/* </li> */}
+            {/* ))} */}
           </ul>
         </div>
       </div>

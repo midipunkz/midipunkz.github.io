@@ -10,7 +10,7 @@ const App: FC<AppProps> = ({ Component, pageProps: { session, ...pageProps } }: 
 
     const router = useRouter();
 
-    const nftRoutes = ['/gm'];
+    const nftRoutes = ['/gm','/family/dj-dj-spin-that-record-for-me'];
 
     return  <>
     {

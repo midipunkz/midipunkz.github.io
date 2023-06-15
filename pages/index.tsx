@@ -33,26 +33,16 @@ export default function Home() {
         <a id="family" />
         <Family />
 
-
-
         <a id="metaverse"/>
         <Metaverses/>
-
 
         <a id="faq"/>
         <FAQ/>
 
-
-
-
-
         {/* See you soon! */}
         {/* Hello World. <Link href="/about">About</Link> */}
 
-
       </main>
-
-
 
 
       <Footer />

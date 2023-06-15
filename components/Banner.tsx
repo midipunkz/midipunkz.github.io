@@ -1,4 +1,5 @@
 import { XMarkIcon } from '@heroicons/react/20/solid'
+import Link from 'next/link'
 
 export default function Banner() {
   return (
@@ -33,15 +34,15 @@ export default function Banner() {
           <svg viewBox="0 0 2 2" className="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
             <circle cx={1} cy={1} r={1} />
           </svg>
-          Now Minting on Ethereum for 0.008 ETH
+          Minting now closed Take the survey!
         </p>
-        <a
-          href="https://mint.midipunkz.com"
+        <Link
+          href="/dj-mint-survey"
           target='new'
           className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
-          Mint Now <span aria-hidden="true">&rarr;</span>
-        </a>
+          Take Survey! <span aria-hidden="true">&rarr;</span>
+        </Link>
       </div>
       <div className="flex flex-1 justify-end">
         {/* <button type="button" className="-m-3 p-3 focus-visible:outline-offset-[-4px]">
