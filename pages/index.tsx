@@ -5,6 +5,7 @@ import Carousel from '../components/Carousel'
 import Metaverses from '../components/Metaverses'
 import FAQ from '../components/FAQ'
 import Story from '../components/Story'
+import PlayMidiVaderzButton from '@/components/PlayMidiVaderzButton'
 export default function Home() {
 
   return (
@@ -18,8 +19,13 @@ export default function Home() {
       <main className="container mx-auto pt-4">
 
         {/* <MiDiPunkz/> */}
+        <div className='flex flex-row container mx-auto justify-center'>
+        <PlayMidiVaderzButton/>
+        </div>
+      
 
         <a id="nfts" />
+      
         <Carousel />
 
         <a id="story"/>
