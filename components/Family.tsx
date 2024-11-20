@@ -29,7 +29,7 @@ const people = [
               <li key={person.name}> */}
                 <div className="flex items-center gap-x-6">
 
-                  <img src="family/tree.jpeg"/>
+                  <img src="family/tree-10-30-2024.jpeg"/>
                   {/* <img className="h-16 w-16 rounded-full" src={person.imageUrl} alt="" />
                   <div>
                     <h3 className="text-base font-semibold leading-7 tracking-tight text-gray-900">{person.name}</h3>
